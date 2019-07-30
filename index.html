@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang="de">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -25,20 +25,82 @@
         <meta property="twitter:url" content="https://nacht-der-offenen-kirchen-ludwigshafen.de">
         <meta property="twitter:title" content="Nacht der offenen Kirchen Ludwigshafen">
         <meta property="twitter:description" content="31.5.2020, 18:00-24:00 Uhr, in vielen Kirchen in Ludwigshafen.">
+
+        <style>
+        /* === page === */
+        .page {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0;
+            padding: 1rem;
+            font-family: 'Baskerville', 'Palatino Linotype', 'Times New Roman', Times, serif;
+        }
+        /* === headline === */
+        .headline {
+            font-family: 'Helvetica', 'Arial', sans-serif;
+        }
+        .headline--chapter {
+            font-size: 3rem;
+        }
+        .headline--section {
+            font-size: 2rem;
+        }
+        /* === text === */
+        .text {
+            max-width: 40rem;
+            text-align: justify;
+            line-height: 1.5;
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+            -webkit-hyphens: auto;
+               -moz-hyphens: auto;
+                    hyphens: auto;
+        }
+        .text--highlight::first-letter {
+            float: left;
+            font-size: 3rem;
+            line-height: 1;
+            vertical-align: top;
+        }
+        .text--large {
+            font-size: 1.5rem;
+        }
+        /* === list === */
+        .list {
+            line-height: 1.5;
+        }
+        /* === link === */
+        .link {
+            color: inherit;
+        }
+        </style>
     </head>
-    <body>
-        <h1>Nacht der offenen Kirchen Ludwigshafen</h1>
-        <p>31.5.2020, 18:00-24:00 Uhr, in vielen Kirchen in Ludwigshafen.</p>
-        <h2>Mitglieder im Arbeitskreis christlicher Kirchen Ludwigshafen</h2>
-        <ul>
-            <li><a href="https://www.kath-dekanat-lu.de">Katholisches Dekanat Ludwigshafen</a></li>
-            <li><a href="https://www.ekilu.de">Evangelische Kirche Ludwigshafen</a></li>
-            <li><a href="https://www.facebook.com/CvjmLudwigshafen">CVJM Ludwigshafen</a></li>
-            <li><a href="https://stadtmission-ludwigshafen.de">Stadtmission mennoniten-in-ludwigshafen</a></li>
-            <li><a href="http://orthodoxie-ludwigshafen.net">Griechisch-Orthodoxe Kirchengemeinde Ludwigshafen</a></li>
-            <li><a href="http://www.mennoniten-in-ludwigshafen.de">Mennonitengemeinde Ludwigshafen</a></li>
-            <li><a href="https://ludwigshafen.feg.de">Freie evangelische Gemeinde Ludwigshafen</a></li>
-            <li><a href="https://efg-ludwigshafen.de">Evangelisch-freikirchliche Gemeinde Ludwigshafen</a></li>
+    <body class="page">
+        <h1 class="headline headline--chapter">Nacht der offenen Kirchen Ludwigs&shy;hafen</h1>
+        <p class="text text--large">31.5.2020, 18:00-24:00 Uhr, in vielen Kirchen in Ludwigshafen.</p>
+        
+        <h2 class="headline headline--section">Das erwartet Sie</h2>
+        <p class="text text--highlight">
+
+        </p>
+
+        <h2 class="headline headline--section">Die Veranstalter</h2>
+        <p class="text text--highlight">
+            Die ACK (Arbeitsgemeinschaft Christlicher Kirchen) ist ein Zusammenschluss mehrerer christlicher Kirchen und
+            Gemeinden in Ludwigshafen. Das Ziel ist es, Kommunikation und Verständnis zwischen den unterschiedlichen
+            Konfessionen zu fördern und auch immer wieder ökumenische Veranstaltungen zu organisieren. Die "Nacht der
+            offenen Kirchen" wird gemeinsam mit der ev. Allianz veranstaltet. Bisher haben folgene Kirchen ihre Teilnahme
+            zugesagt:
+        </p>
+        <ul class="list list--unordered">
+            <li><a class="link" href="https://www.kath-dekanat-lu.de">Katholisches Dekanat Ludwigshafen</a></li>
+            <li><a class="link" href="https://www.ekilu.de">Evangelische Kirche Ludwigshafen</a></li>
+            <li><a class="link" href="https://www.facebook.com/CvjmLudwigshafen">CVJM Ludwigshafen</a></li>
+            <li><a class="link" href="https://stadtmission-ludwigshafen.de">Stadtmission Ludwigshafen</a></li>
+            <li><a class="link" href="https://ludwigshafen.feg.de">Freie evangelische Gemeinde Ludwigshafen</a></li>
+            <li><a class="link" href="https://efg-ludwigshafen.de">Evangelisch-freikirchliche Gemeinde Ludwigshafen</a></li>
+            <li><a class="link" href="https://www.kath-dekanat-lu.de/seelsorgeeinrichtungen/jugendkirche-lumen/">Jugendkirche LUMEN</a></li>
         </ul>
     </body>
 </html>
